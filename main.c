@@ -188,7 +188,7 @@ int handleEncounters(){
 }
 
 void handleJamesChoice(){
-    printf("(s)ave\nl(o)ad\n(e)nd and save\n");
+    printf("(s)ave\nl(o)ad\n(e)nd and save\n(a)bout game\n");
     int choice = getJamesChoice();
     switch(choice){
         //u - up
@@ -235,9 +235,17 @@ void handleJamesChoice(){
             loadGame();
             break;
         case 101:
+        //save and exit
             saveGame();
-            exit(0);;
+            exit(0);
             break;
+        case 97:
+            // about game
+            printf("James wakes up at night after a bad day to lights shinning from his window\nHe moves towards his window and finds a time portal spinning mid air.\n He Jumps into this portal and finds himself back in time.");
+            printf("\n Press enter .....");
+            getchar();
+            break;
+            
         default:
             printf("Unknown choice %d", choice);
     }
