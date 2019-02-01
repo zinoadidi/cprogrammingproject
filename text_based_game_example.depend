@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1538173925 source:/Users/erikkesa/Mainor_example/text_based_game/text_based_game_example/player_state.c
+
+1538337417 source:/Users/erikkesa/Mainor_example/text_based_game/text_based_game_example/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
